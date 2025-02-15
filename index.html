@@ -18,8 +18,27 @@
         #contactsection{
             margin: auto; width: 40%;
         }
-        label{display: block;}
+        label{display: block; margin-bottom: 8px;}
+        input,textarea{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
 
+        button:hover {
+            background-color: #45a049;
+        }
     </style>
 
   </head>
@@ -31,6 +50,8 @@
             <p style="line-height: 2em; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
                 Hi, I’m Caleb Adebayo, a Junior Frontend Engineer with a passion for building responsive and user-friendly web applications. I specialize in HTML, CSS, JavaScript, and React, creating seamless and engaging user experiences. I enjoy solving problems, optimizing performance, and continuously learning new technologies to enhance my skills. Excited to collaborate and bring ideas to life!
             </p>
+
+            <p>To read more about me, <a href="#readmore">Click me!</a></p>
             
         </div>
         <img src="IMG_1389.jpg" alt="Caleb profile picture" width="15%" height="200em" style="border-radius: 50%; border: 2px solid black; margin: auto;">
@@ -59,6 +80,45 @@
             <textarea name="message" id="" placeholder="Type your message here"></textarea>
             <button>Submit</button>
         </form>
+    </section>
+
+    <section style="align-items: center; margin: 30%;">
+        <table border="1" cellspacing="0" cellpadding="8" style="margin: 0 auto;">
+            <thead>
+              <tr>
+                <th>Name of Movie/Hobby</th>
+                <th>Reason I Like It</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Inception</td>
+                <td>The mind-bending plot and stunning visuals captivate me.</td>
+              </tr>
+              <tr>
+                <td>The Shawshank Redemption</td>
+                <td>Its inspiring story and brilliant character development are unforgettable.</td>
+              </tr>
+              <tr>
+                <td>The Matrix</td>
+                <td>The innovative concept and action-packed sequences make it a timeless classic.</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+
+    <section style="width: 70%; margin: auto;" id="readmore">
+        <h1>READ MORE ABOUT ME!</h1>
+  <p style="line-height: 2rem;">Hello and thanks for stopping by!
+
+I’m a passionate Frontend Engineer who loves transforming ideas into engaging digital experiences. My journey into the world of web development began when I discovered the magic behind clean code and innovative design. Today, I work with HTML, CSS, and JavaScript to create interfaces that are not only beautiful but also user-friendly and accessible.
+
+Beyond coding, I’m a lifelong learner and an avid explorer of the latest tech trends. Whether it’s diving into a new framework or experimenting with design aesthetics, I embrace every challenge as a chance to grow and improve. When I’m not at my computer, you can find me [insert hobby or interest here, e.g., exploring nature, capturing moments through photography, or enjoying a good book].
+
+I believe in the power of collaboration, creativity, and continuous improvement. This website is my little corner of the digital world—a space where I share my projects, ideas, and the occasional insight into my life as a developer. Feel free to explore, get inspired, or reach out if you’d like to connect!
+
+Feel free to adjust the details to make it uniquely yours!
+        </p>
     </section>
   </body>
 </html>
